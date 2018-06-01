@@ -1,0 +1,17 @@
+
+Data Flow Task:Error: The managed pipeline component "KingswaySoft.IntegrationToolkit.ProductivityPack.AdoDotNetSourceComponent, KingswaySoft.IntegrationToolkit.ProductivityPack, Version=1.0.2017.0, Culture=neutral, PublicKeyToken=705df8e0751bcea7" could not be loaded.  The exception was: Could not load file or assembly 'Microsoft.SqlServer.DTSRuntimeWrap, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The system cannot find the file specified..
+ 
+ 
+523742
+
+curl -X POST -d "LogicApps WebHooks Demo" http://requestbin.fullcontact.com/1dfro581
+
+curl -X POST -d "unsub" http://requestbin.fullcontact.com/1dfro581?unsub=true
+
+"action": "created",
+"title": "New LogicApps Issue - WebHooks",
+ "login": "arunmanick",
+"state": "closed",
+  "created_at": "2018-06-01T07:09:02Z",
+    "updated_at": "2018-06-01T07:09:02Z",
+    "body": "Closed"
